@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/poweron"
+        android:layout_width="80dp"
+        android:layout_height="77dp"
+        android:background="@drawable/shape"
+        android:padding="15dp"
+        android:src="@drawable/ic__power_off"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="318dp"
+        android:layout_height="38dp"
+        android:layout_margin="25dp"
+        android:gravity="center"
+        android:text="@string/flshlght"
+        android:textColor="@color/purple_500"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/nxtactvty"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:onClick="transition"
+        android:text="Доп. функции" />
+
+</LinearLayout>
